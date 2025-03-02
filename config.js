@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '3981609', // Write here your API Key
+	weatherKey: 'fe6209548cc39803e26f083d6529abeb', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '32.530692',
+	defaultLongitude: '-116.978523',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://youtube.com/',
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'Gmail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Instagram',
+			icon: 'instagram',
+			link: 'https://instagram.com',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'X',
+			icon: 'x',
+			link: 'https://x.com',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'WhatsApp',
+			icon: 'phone',
+			link: 'https://web.whatsapp.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://twitch.tv/6Danii',
 		},
 	],
 
@@ -139,42 +139,42 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Youtube Music',
+					link: 'https://music.youtube.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '☔',
+					link: 'https://music.youtube.com/playlist?list=PLldnkd_SFEnNZCVJLJB1U3vBw1-WL6Y5M',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '🦥',
+					link: 'https://music.youtube.com/playlist?list=PLldnkd_SFEnNymsb9H3GoRUOlcfbt5ztK',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: '🍓',
+					link: 'https://music.youtube.com/playlist?list=PLldnkd_SFEnOVpvs3tAllQiykOTsvjICJ',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'school',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Classroom',
+					link: 'https://classroom.google.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'ChatGPT',
+					link: 'https://chatgpt.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Canvas',
+					link: 'https://www.canvas.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Ambar',
+					link: 'https://tijuana.ambar.tecnm.mx',
 				},
 			],
 		},
